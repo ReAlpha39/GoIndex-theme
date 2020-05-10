@@ -70,15 +70,6 @@ document.write(
       cursor: pointer;
     }
     
-    .no-content {
-      background: url(https://i.pximg.net/img-master/img/2018/11/27/20/17/33/71858420_p0_master1200.jpg) no-repeat 50% 50%;
-      background-size: 280px 280px;
-      height: 300px;
-      line-height: 240px;
-      text-align: center;
-      margin-top: 20px;
-    }
-    
     .modal-background {
       background-color: rgba(0,0,0,.4);
     }
