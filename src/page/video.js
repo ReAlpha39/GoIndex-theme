@@ -53,8 +53,10 @@ var govideo = Vue.component("govideo", {
   },
   template: `
     <div class="content">
-        <div class="video-content">
-          <iframe width="100%" height="100%" :src="apiurl" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+        <div>
+          <video id="player" preload playsinline controls width="100%" height="100%">
+            <source :src="videourl" type="video/mp4" />
+          </video>
         </div>
         <div class="card">
             <header class="card-header">
