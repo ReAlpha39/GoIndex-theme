@@ -53,7 +53,7 @@ var govideo = Vue.component("govideo", {
   },
   template: `
     <div class="content">
-        <div>
+        <div class="card">
           <video id="player" preload playsinline controls width="100%" height="100%">
             <source :src="videourl" type="video/mp4" />
           </video>
