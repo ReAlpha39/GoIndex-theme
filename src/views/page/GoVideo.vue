@@ -1,20 +1,6 @@
 <template>
   <div class="content g2-content">
-    <div v-if="player && player.api" class="video-content">
-      <iframe
-        width="100%"
-        height="100%"
-        :src="apiUrl"
-        frameborder="0"
-        border="0"
-        marginwidth="0"
-        marginheight="0"
-        scrolling="no"
-        allowtransparency="true"
-        allowfullscreen="true"
-      ></iframe>
-    </div>
-    <video v-else style="width:100%;" preload controls>
+    <video style="width:100%;" preload playsinline controls>
       <source :src="videoUrl" type="video/mp4" />
     </video>
     <div class="card">
