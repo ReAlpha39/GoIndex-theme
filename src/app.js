@@ -142,7 +142,7 @@ var app = new Vue({
     let favicon = document.createElement("link");
     favicon.rel = "icon";
     favicon.href =
-      "https://cdn.jsdelivr.net/gh/Aicirou/goindex-theme-acrou/favicon.ico";
+      "https://cdn.jsdelivr.net/gh/ReAlpha39/goindex-theme-acrou/favicon.ico";
     document.getElementsByTagName("head")[0].appendChild(favicon);
 
     let scripts = [
